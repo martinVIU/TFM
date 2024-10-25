@@ -1,0 +1,10 @@
+version: '1.0'
+services:
+  jupyter-lab:
+    build: .
+    ports:
+      - 8888:8888
+      - 2222:22  # Puerto para SSH si es necesario
+    volumes:
+      - ../Compartida:/compartida  # Montar el directorio tf-martin
+    entrypoint: ["/bin/bash", "-c", "/compartida/start.sh"]

@@ -1,0 +1,17 @@
+{
+    "video": {
+        "nombre": "C:/Users/Ubik/tfm_codigo_antes_ajustando/tfm_codigo/transportes.mp4",
+        "idioma": "ES",
+        "nombretemp": "video.mp4"
+    },
+    "directorios": {
+        "clases_detectadas": "informes",
+        "fotogramas": "fotogramas",
+        "informes": "informes",
+        "incluir_PDF": "incluir_PDF",
+        "incluir_txt": "incluir_txt",
+        "preguntas": "preguntas",
+        "respuestas": "respuestas",
+        "videotemp": "videotemp"
+    }
+}
